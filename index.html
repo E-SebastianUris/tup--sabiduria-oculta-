@@ -3,8 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>CV - Melany Besguro</title>
+
+    <!-- Vinculo al CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<header>
+    <img src="foto.jpg" alt="Foto de Melany" class="foto-perfil">
+
+    <h1>Melany Besguro</h1>
+    <h2>Estudiante de Programación</h2>
+</header>
+
+<section>
+    <h3>Sobre mí</h3>
+    <p>
+        Estudiante de la Tecnicatura Universitaria en Programación en la UTN – FRLP,
+actualmente cursando el último año de la carrera. Cuento con conocimientos en
+desarrollo de aplicaciones utilizando Python y Django, bases de datos MySQL y
+tecnologías web básicas como HTML y CSS. Me caracterizo por ser proactiva, con
+buena capacidad de resolución de problemas y facilidad para el trabajo en
+equipo. Busco continuar desarrollando mis conocimientos técnicos en un entorno profesional.
+
+    </p>
+</section>
+
+<section>
+    <h3>Experiencia</h3>
+    <p>
+        Desarrolladora web en
+        <a href="https://www.google.com" target="_blank">Empresa de Desarrollo Web</a>
+    </p>
+
+    <p>
+        Email:
+        <a href="mailto:MelanyBesguro@outlook.com">MelanyBesguro@outlook.com</a>
+    </p>
+</section>
+
+<section>
+    <h3>Habilidades</h3>
+
+    <div class="contenedor-habilidades">
+
+        <div class="card">
+            <h4>Python & Django</h4>
+            <p>Desarrollo de aplicaciones web utilizando el framework Django.</p>
+        </div>
+
+        <div class="card">
+            <h4>HTML & CSS</h4>
+            <p>Creación de interfaces web estructuradas y estilizadas.</p>
+        </div>
+
+        <div class="card">
+            <h4>MySQL</h4>
+            <p>Diseño y consultas de bases de datos relacionales.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h3>Contacto</h3>
+
+    <form>
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <button onclick="volverArriba()">↑ Volver arriba</button>
+</section>
+
+<!-- Vinculo al JS -->
+<script src="script.js"></script>
 
 </body>
 </html>
